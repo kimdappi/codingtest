@@ -1,3 +1,7 @@
+- 확실히 deque 선언하니까 popleft 해서 고려 안하면 로직이 간단해져서 좋다
+- 지금 time step의 prog_q들이랑 prog_q[0]을 한 번에 100 이상인지 체크하니까 코드가 간단하다.
+
+
 # [level 2] 기능개발 - 42586 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586) 
