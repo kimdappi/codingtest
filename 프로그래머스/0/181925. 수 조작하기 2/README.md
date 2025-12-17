@@ -1,3 +1,20 @@
+
+3
+4
+5
+6
+7
+def solution(numLog):
+    d = {'1':'w', '-1':'s', '10':'d', '-10':'a'}
+    answer = ''
+    for i in range(1, len(numLog)):
+        answer += d[str(numLog[i] - numLog[i - 1])]
+    return answer
+
+내가 쓴 코드와 달리 딕셔너리를 쓰면 이렇게나 똑똑하게도 풀 수 있다.
+아직 zip, enumerate, lambda, dict가 불편한데, 좀 써봐야겠다. 잘만 쓰면 코드 작성에 피로도가 덜할 것이다.
+
+
 # [level 0] 수 조작하기 2 - 181925 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181925) 
