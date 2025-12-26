@@ -1,4 +1,6 @@
 # [level 0] 2의 영역 - 181894 
+enumerate 익숙해지기
+
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181894) 
 
